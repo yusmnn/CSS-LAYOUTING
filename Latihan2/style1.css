@@ -1,0 +1,34 @@
+.padding {
+    background-color: rgb(17, 8, 56);
+    width: 230px;
+    height: 170px;
+    color: antiquewhite;
+    margin: 50px auto;
+    overflow: scroll;
+    padding: 20px 20px 100px 40px;
+    border: 5px solid rgb(8, 8, 8);
+}
+
+.satu, .dua {
+    width: 600px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}  
+
+.satu {
+    background-color: purple;
+    color: aqua;
+    margin: auto;
+    border: solid black;
+}
+div p a {
+    color: rgb(255, 251, 0);
+}
+
+.dua {
+    background-color: rgb(32, 168, 50);
+    color: rgb(14, 4, 6);
+    margin: 20px auto;
+    border: solid black;
+}
+
