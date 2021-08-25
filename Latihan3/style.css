@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*stlye*/
+body {
+	font: 16px 28px arial, sans-serif;
+	background-color: rgba(190, 191, 197, 0.789);
+	color: rgb(44, 44, 41);
+}
+
+.container	{
+	width: 1000px;
+	margin: auto;
+	background-color: rgb(233, 229, 229);
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.header .judul {
+	font-size: 40px;
+	color: rgb(19, 5, 77);
+	font-weight: bold;
+}
+
+.header ul li {
+display: inline-block;
+padding: 20px;
+padding-left: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: royalblue;
+}
+
+.header a:hover {
+	color: rgb(19, 5, 77);
+}
+
+.hero {
+	height: 280px;
+	background-image: url(tokyoimg.jpg);
+	background-size: cover;
+	background-position: 0 -260px;
+	border-top: 5px solid rgb(30, 70, 109);
+	border-bottom: 5px solid rgb(30,70, 77);
+}
+
+.conten1 p {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 16px;
+	line-height: 27.2px;
+	letter-spacing: normal;
+}
+.conten h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.conten .writer {
+	font-size: 11px;
+	margin-top: -18px;
+	margin-left: 25px;
+}
+
+.writer a {
+	text-decoration: none;
+
+}
+
+.writer a:hover {
+	color: rgb(18, 6, 67);
+}
+
+.footer {
+	background-color: rgb(19, 5, 77);
+	padding: 10px;
+}
+
+.footer .copy {
+	text-align: center;
+	color: rgb(145, 148, 160);
+	font-size: 12px;
+}
+
+
