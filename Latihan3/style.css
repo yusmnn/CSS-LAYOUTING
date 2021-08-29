@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* hack boxsizing */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,10 +43,11 @@ table {
 	border-spacing: 0;
 }
 
+
 /*stlye*/
 body {
 	font: 16px 28px arial, sans-serif;
-	background-color: rgba(190, 191, 197, 0.789);
+	background-color: rgb(168, 169, 179);
 	color: rgb(44, 44, 41);
 }
 
@@ -96,7 +93,13 @@ padding-left: 5px;
 	border-bottom: 5px solid rgb(30,70, 77);
 }
 
-.conten1 p {
+.main {
+	width: 680px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main p {
 	margin-top: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -104,13 +107,14 @@ padding-left: 5px;
 	line-height: 27.2px;
 	letter-spacing: normal;
 }
-.conten h2 {
+
+.main h2 {
 	font-size: 25px;
 	font-weight: bold;
 	margin: 20px;
 }
 
-.conten .writer {
+.main .writer {
 	font-size: 11px;
 	margin-top: -18px;
 	margin-left: 25px;
@@ -126,6 +130,34 @@ padding-left: 5px;
 	font-style: italic;
 }
 
+/* sidebar */
+.sidebar {
+	width: 310px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3 {
+	color: rgb(18, 6, 67);
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.sidebar img {
+	width: 70px;
+	height: 75px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+	font: 12px/15px arial;
+}
+
 .footer {
 	background-color: rgb(19, 5, 77);
 	padding: 10px;
@@ -138,3 +170,19 @@ padding-left: 5px;
 }
 
 
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
