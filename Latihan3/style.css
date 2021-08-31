@@ -47,14 +47,43 @@ table {
 /*stlye*/
 body {
 	font: 16px 28px arial, sans-serif;
-	background-color: rgb(168, 169, 179);
+	background-color: rgb(129, 129, 135);
 	color: rgb(44, 44, 41);
+}
+
+.topbar {
+	background-color: rgb(30,70,109);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 60px;
+	z-index: 999999;
+}
+
+.topbar div a img {
+	left: 90px;
+	position: absolute;
 }
 
 .container	{
 	width: 1000px;
-	margin: auto;
+	margin: 70px auto;
+	margin-bottom: -80px;
 	background-color: rgb(233, 229, 229);
+	position: relative;
+}
+
+.twitterribbon {
+	width: 100px;
+	height: 100px;
+	background-image: url(twitterribbon.png);
+	background-repeat: no-repeat;
+	right: -7px;
+	top: -7px;
+	display: inline-block;
+	text-indent: -999999px;
+	position: absolute;
 }
 
 .header {
@@ -135,8 +164,10 @@ padding-left: 5px;
 	width: 310px;
 	box-sizing: border-box;
 	margin-top: 50px;
+	margin-right: 5px;
 	float: right;
 	padding: 20px;
+	border: 1px solid rgb(18, 6, 67);
 }
 
 .sidebar h3 {
